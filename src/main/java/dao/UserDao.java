@@ -7,13 +7,15 @@ import java.util.List;
 public interface UserDao {
 
     //create
-    void add(User user);
+
+
+    void add(models.User user);
 
     //read
-    List<User> getAll();
+    List<models.User> getAll();
 
     // find by ID
-    User findById(int id);
+    models.User findById(int id);
 
     //update
     void update(int id, String name, String bio,String position,String role,int departmentId);

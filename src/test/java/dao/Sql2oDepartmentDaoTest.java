@@ -32,6 +32,7 @@ public class Sql2oDepartmentDaoTest {
     }
 
 
+    private Sql2oNewsDao newsDao;
     private Sql20UserDao userDao;
     private Sql2oDepartmentDao DepartmentDao;
     private Sql2oDepartmentDao departmentDao;

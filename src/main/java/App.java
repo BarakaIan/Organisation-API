@@ -1,7 +1,7 @@
 import com.google.gson.Gson;
+import dao.Sql20UserDao;
 import dao.Sql2oDepartmentDao;
 import dao.Sql2oNewsDao;
-import dao.Sql2oUserDao;
 import exceptions.ApiException;
 import models.Department;
 import models.News;
@@ -23,7 +23,7 @@ public class App {
     }
     public static void main(String[] args) {
         port(getHerokuAssignedPort());
-        Sql2oUserDao userDao = new Sql2oUserDao(DB.sql2o);
+        Sql20UserDao userDao = new Sql20UserDao(DB.sql2o);
         Sql2oDepartmentDao departmentDao = new Sql2oDepartmentDao(DB.sql2o);
         Sql2oNewsDao newsDao = new Sql2oNewsDao(DB.sql2o);
         Connection conn = DB.sql2o.open();
