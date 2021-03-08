@@ -21,8 +21,7 @@ Deployment.
 * Java
 * Spark
 * PostgreSql
-## Support and contact details
-If you have any questions reach out to me on [emileizere@gmail.com]
+#
 ### License
 Licensed by MIT
 Copyright (c) 2020 **Ian Makale**
