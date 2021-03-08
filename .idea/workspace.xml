@@ -36,6 +36,9 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="dao" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/db" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
