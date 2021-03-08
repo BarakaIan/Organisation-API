@@ -31,7 +31,7 @@ public class Sql20UserDaoTest {
 
     @Test
     public void userIsSavedCorrectly(){
-        User newUser = new User("emile","student learning java","student","enjoy",36);
+        User newUser = new User("ian","student learning java","student","enjoy",36);
         userDao.add(newUser);
         assertEquals(userDao.getAll().get(0),newUser);
     }
@@ -46,7 +46,7 @@ public class Sql20UserDaoTest {
 
     @Test
     public void addedUsersAreReturnedFromGetAll() throws Exception {
-        User newUser = new User("emile","student learning java","student","enjoy",36);
+        User newUser = new User("ian","student learning java","student","enjoy",36);
         userDao.add(newUser);
         assertEquals(1,userDao.getAll().size());
     }
@@ -74,10 +74,10 @@ public class Sql20UserDaoTest {
 
     //Helpers
     public User setupUser (){
-        return new User("emile","student learning java","student","enjoy",36);
+        return new User("ian","student learning java","student","enjoy",36);
     }
 
     public User setupAltUser (){
-        return new User("emile","student learning java","student","enjoy");
+        return new User("ian","student learning java","student","enjoy");
     }
 }
