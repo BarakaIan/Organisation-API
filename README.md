@@ -1,5 +1,5 @@
 # Organisational Api
-#### Java Application for creating a function api for departments, users and news, December 14 2020
+#### Java Application for creating a function api for departments, users and news
 #### By **Ian Makale**
 ## Description
 Organisational api is an application that uses restful routing to create an api that provides access to our apps' users, departments, and news posts. you are able to get and post new information but there is no front end provided and everything is in JSON format.
