@@ -49,13 +49,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Sql20UserDaoTest.userIsSavedCorrectly">
-    <configuration name="Sql20UserDaoTest.userIsSavedCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserTest">
+    <configuration name="DepartmentTest.departmentInstantiatesCorrectly_true" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql20UserDaoTest.userIsSavedCorrectly&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.DepartmentTest.departmentInstantiatesCorrectly_true&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -70,12 +70,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DepartmentTest.getNameReturnsCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.DepartmentTest.getNameReturnsCorrectly&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -90,12 +90,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oDepartmentDaoTest.addedDepartmentAreReturnedFromGetAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NewsTest.getTitleReturnsCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oDepartmentDaoTest.addedDepartmentAreReturnedFromGetAll&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.NewsTest.getTitleReturnsCorrectly&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -110,12 +110,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oDepartmentDaoTest.addingDepartmentSetsId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Sql20UserDaoTest.addedUsersAreReturnedFromGetAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oDepartmentDaoTest.addingDepartmentSetsId&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql20UserDaoTest.addedUsersAreReturnedFromGetAll&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -130,12 +130,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Sql2oNewsDaoTest.deleteByIdDeletesCorrectUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dao.Sql2oNewsDaoTest.deleteByIdDeletesCorrectUser&quot;" />
+        <option name="scriptParameters" value="--tests &quot;models.UserTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Sql20UserDaoTest.userIsSavedCorrectly" />
-        <item itemvalue="Gradle.Sql2oDepartmentDaoTest.addedDepartmentAreReturnedFromGetAll" />
-        <item itemvalue="Gradle.Sql2oDepartmentDaoTest.addingDepartmentSetsId" />
-        <item itemvalue="Gradle.Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly" />
-        <item itemvalue="Gradle.Sql2oNewsDaoTest.deleteByIdDeletesCorrectUser" />
+        <item itemvalue="Gradle.UserTest" />
+        <item itemvalue="Gradle.NewsTest.getTitleReturnsCorrectly" />
+        <item itemvalue="Gradle.DepartmentTest.getNameReturnsCorrectly" />
+        <item itemvalue="Gradle.DepartmentTest.departmentInstantiatesCorrectly_true" />
+        <item itemvalue="Gradle.Sql20UserDaoTest.addedUsersAreReturnedFromGetAll" />
       </list>
     </recent_temporary>
   </component>

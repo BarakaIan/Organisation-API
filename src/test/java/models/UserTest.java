@@ -17,7 +17,7 @@ public class UserTest {
     @Test
     public void getNameReturnsCorrectly(){
         User newUser = setupUser();
-        assertEquals("emile",newUser.getName());
+        assertEquals("ian",newUser.getName());
     }
 
     @Test
