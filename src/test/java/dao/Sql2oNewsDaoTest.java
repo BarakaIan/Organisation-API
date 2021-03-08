@@ -12,7 +12,7 @@ import static org.junit.Assert.assertNotEquals;
 
 public class Sql2oNewsDaoTest {
     private Sql2oDepartmentDao departmentDao;
-    private Sql2oUserDao userDao;
+    private Sql20UserDao userDao;
     private Sql2oNewsDao newsDao;
     private Connection conn;
 
@@ -21,7 +21,7 @@ public class Sql2oNewsDaoTest {
     public void setUp() throws Exception {
         String connectionString = "jdbc:postgresql://localhost:5432/organisational_test";
         Sql2o sql2o = new Sql2o(connectionString, "moringa", "D2000sep");
-        userDao = new Sql2oUserDao(sql2o);
+        userDao = new Sql20UserDao(sql2o);
         newsDao = new Sql2oNewsDao(sql2o);
         departmentDao = new Sql2oDepartmentDao(sql2o);
         conn = sql2o.open();

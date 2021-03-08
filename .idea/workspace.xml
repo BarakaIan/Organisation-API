@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="Organisation-API.main" />
@@ -47,8 +47,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dao.Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Sql2oDepartmentDaoTest.DepartmentIsSavedCorrectly" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
